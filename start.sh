@@ -1,7 +1,7 @@
 #!/bin/bash
  
 # Start dummy HTTP server to keep Render Web Service alive
-python3 -m http.server 8080 &
+python3 -m http.server 6080 &
  
 # Start tmate in background
 tmate -S /tmp/tmate.sock new-session -d
