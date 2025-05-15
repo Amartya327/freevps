@@ -12,6 +12,6 @@ RUN apt-get update && \
 COPY start.sh /start.sh
 RUN chmod +x /start.sh
  
-EXPOSE 8080
+EXPOSE 6080
  
 CMD ["/start.sh"]
